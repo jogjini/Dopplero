@@ -1,0 +1,9 @@
+# made by setup.sh
+.venv/
+native/target/
+Dopplero.app/
+# made while the app runs: your jobs and recordings, downloaded flight data, caches
+outputs/
+data/
+__pycache__/
+.DS_Store

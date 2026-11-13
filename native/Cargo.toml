@@ -1,0 +1,11 @@
+[package]
+name = "dopplero"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.31"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "multipart", "rustls-tls"] }
+rfd = "0.15"
+serde_json = "1"

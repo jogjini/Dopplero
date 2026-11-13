@@ -1,0 +1,15 @@
+[project]
+name = "doppler"
+version = "0.1.0"
+description = "Find where a recording was made from the aircraft heard in it (Doppler curves matched to ADS-B flight tracks)"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "matplotlib>=3.9",
+    "numba>=0.68.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
