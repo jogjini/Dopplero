@@ -54,10 +54,6 @@ said "No clear match" even though its top place was right. On the video the righ
   using 8–10 CPU workers, with that day's flight data already downloaded. The first search on a new day also
   downloads it, which takes a few minutes or more depending on your connection.
 
-**What doesn't work yet:**
-- On [Eclipse Soundscapes site 724](https://zenodo.org/records/22228212) (Illinois, 9 curves, ±2 min), the best
-  place was 2,102 km off. Since then the search checks many more candidate places, but this hasn't been re-run.
-- These are a few recordings with carefully marked curves. They are examples, not a measured success rate.
 
 ### The recordings
 
@@ -68,11 +64,6 @@ said "No clear match" even though its top place was right. On the video the righ
   on Zenodo; download the site's `ESID_<site>_2024_04_08.zip`. The searches above used one hour of each, starting at
   these times by the recorder's own clock:
 
-  | Site | Zenodo record | Hour used starts at (UTC) |
-  |---|---|---|
-  | 172 | [zenodo.org/records/22051591](https://zenodo.org/records/22051591) | 2024-04-08 18:09:00 |
-  | 435 | [zenodo.org/records/21773341](https://zenodo.org/records/21773341) | 2024-04-08 03:23:13 |
-  | 724 | [zenodo.org/records/22228212](https://zenodo.org/records/22228212) | 2024-04-08 20:07:34 |
 
 ## Install
 
